@@ -1,0 +1,7 @@
+name = "PDFMakie"
+uuid = "e9a2b5d4-2139-42d9-ad42-ef6c084e8c4b"
+authors = ["daizutabi <daizutabi@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
