@@ -1,4 +1,4 @@
-module PDFMakie
+module MakiePDF
 
 using IJulia
 using Makie

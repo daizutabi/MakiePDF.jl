@@ -1,4 +1,4 @@
 @testitem "aqua" begin
     using Aqua: Aqua
-    Aqua.test_all(PDFMakie; ambiguities=false)
+    Aqua.test_all(MakiePDF; ambiguities=false)
 end

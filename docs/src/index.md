@@ -1,14 +1,14 @@
 ```@meta
-CurrentModule = PDFMakie
+CurrentModule = MakiePDF
 ```
 
-# PDFMakie
+# MakiePDF
 
-Documentation for [PDFMakie](https://github.com/daizutabi/PDFMakie.jl).
+Documentation for [MakiePDF](https://github.com/daizutabi/MakiePDF.jl).
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [PDFMakie]
+Modules = [MakiePDF]
 ```
