@@ -3,5 +3,11 @@ uuid = "e9a2b5d4-2139-42d9-ad42-ef6c084e8c4b"
 authors = ["daizutabi <daizutabi@gmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+
 [compat]
-julia = "1"
+IJulia = "1.24"
+Makie = "0.20"
+julia = "1.2"

@@ -1,10 +1,3 @@
-using PDFMakie
-using Test
-using Aqua
+using TestItemRunner
 
-@testset "PDFMakie.jl" begin
-    @testset "Code quality (Aqua.jl)" begin
-        Aqua.test_all(PDFMakie; ambiguities = false,)
-    end
-    # Write your tests here.
-end
+@run_package_tests verbose = true
