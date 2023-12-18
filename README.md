@@ -33,4 +33,4 @@ open("plot.pdf", "w") do f
 end
 ```
 
-Saved images can be used in documentation processors such as Microsoft Word or LaTex.
+Saved images can be used in documentation processors such as Microsoft Word or LaTeX.
