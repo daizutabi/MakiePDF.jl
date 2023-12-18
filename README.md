@@ -9,7 +9,28 @@
 
 MakiePDF is a simple package for embedding PDF images in Jupyter notebooks.
 
-
 ## Usage
 
+In a Jupyter notebook (`plot.ipynb`), you can plot any figures with CairoMakie.
+
 ![img](samples/notebook.png)
+
+PNG images are displayed on screen, while PDF images are embedded in the notebook.
+
+Then, PDF images can be extracted from the notebook and saved as image files.
+For example,
+
+```julia
+using Base64
+using JSON3
+
+json_string = read("plot.ipynb", String)
+nb = JSON3.read(json_string)
+data = nb.cells[1].outputs[1].data["application/pdf"]
+
+open("plot.pdf", "w") do f
+    write(f, base64decode(data))
+end
+```
+
+Saved images can be used in documentation processors such as Microsoft Word or LaTex.
