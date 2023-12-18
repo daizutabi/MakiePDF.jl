@@ -8,3 +8,8 @@
 [![Aqua](https://raw.githubusercontent.com/JuliaTesting/Aqua.jl/master/badge.svg)](https://github.com/JuliaTesting/Aqua.jl)
 
 MakiePDF is a simple package for embedding PDF images in Jupyter notebooks.
+
+
+## Usage
+
+![img](samples/notebook.png)
