@@ -1,7 +1,7 @@
 name = "MakiePDF"
 uuid = "e9a2b5d4-2139-42d9-ad42-ef6c084e8c4b"
 authors = ["daizutabi <daizutabi@gmail.com>"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
