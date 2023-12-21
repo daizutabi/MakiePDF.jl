@@ -18,7 +18,7 @@ end
     using CairoMakie
     using IJulia
     dict = IJulia.display_dict(Figure())
-    @test length(dict) >= 2
+    @test length(dict) == 2
     @test haskey(dict, "image/png")
     @test startswith(dict["image/png"], "iVBO")
     @test haskey(dict, "application/pdf")
