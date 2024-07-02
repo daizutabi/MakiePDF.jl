@@ -7,6 +7,6 @@ TestItemRunner = "f8b46487-2199-4994-9208-9a1283c18c0a"
 
 [compat]
 Aqua = "0.8"
-CairoMakie = "0.11"
+CairoMakie = "0.11,0.12"
 IJulia = "1.24"
 TestItemRunner = "0.2"
