@@ -9,5 +9,5 @@ Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
 
 [compat]
 IJulia = "1.24"
-Makie = "0.20"
+Makie = "0.20,0.21"
 julia = "1.2"
